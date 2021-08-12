@@ -1,4 +1,4 @@
-accessible_charts: true
+﻿accessible_charts: true
 accessible_tabs: true
 analytics:
   ga_prod: ''
@@ -53,7 +53,7 @@ create_pages:
 custom_css: []
 custom_js:
   - /assets/js/custom.js
-data_edit_url: ''
+data_edit_url: data
 data_fields:
   units: ''
   series: ''
@@ -68,7 +68,7 @@ email_contacts:
 environment: staging
 footer_language_toggle: none
 footer_menu:
-  - path: '/contact-us'
+  - path: /contact-us
     translation_key: menu.contact_us
   - path: 'https://twitter.com/MyTwitterAccount'
     translation_key: general.twitter
@@ -127,15 +127,16 @@ hide_empty_metadata: true
 indicator_config_form:
   enabled: true
   dropdowns: []
-  repository_link: '/tree/develop/indicator-config'
+  repository_link: >-
+    https://github.com/open-sdg/open-sdg-data-starter/tree/develop/indicator-config
   translation_link: ''
 indicator_data_form:
   enabled: true
-  repository_link: '/tree/develop/data'
+  repository_link: 'https://github.com/open-sdg/open-sdg-data-starter/tree/develop/data'
 indicator_metadata_form:
   enabled: true
   dropdowns: []
-  repository_link: '/tree/develop/meta'
+  repository_link: 'https://github.com/open-sdg/open-sdg-data-starter/tree/develop/meta'
   translation_link: ''
   language: ''
   scopes:
@@ -193,18 +194,18 @@ menu:
   - path: /news
     translation_key: menu.updates
     dropdown: []
-metadata_edit_url: ''
+metadata_edit_url: metadata
 metadata_tabs: []
 news:
   category_links: false
 non_global_metadata: indicator.national_metadata
-remote_data_prefix: 'https://open-sdg.org/open-sdg-data-starter'
+remote_data_prefix: 'https://tompearson-defra.github.io/open-sdg-data-test/'
 reporting_status:
   title: status.reporting_status
   description: status.description
   disaggregation_tabs: false
-repository_url_data: 'https://github.com/open-sdg/open-sdg-data-starter'
-repository_url_site: ''
+repository_url_data: 'https://github.com/tompearson-Defra/open-sdg-data-test'
+repository_url_site: 'https://github.com/tompearson-Defra/open-sdg-site-test'
 search_index_boost: []
 search_index_extra_fields: []
 series_toggle: true
@@ -212,7 +213,7 @@ sharethis_property: ''
 site_config_form:
   enabled: true
   dropdowns: []
-  repository_link: '/tree/develop/_data'
+  repository_link: 'https://github.com/tompearson-Defra/open-sdg-site-test/tree/develop/_data'
   translation_link: ''
 validate_indicator_config: false
 validate_site_config: false
