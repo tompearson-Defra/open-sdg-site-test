@@ -36,4 +36,7 @@ exclude:
   - README
   - README.md
   - LICENSE
+  
+accessible_tabs: true
+accessible_charts: true
 
