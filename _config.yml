@@ -39,4 +39,8 @@ exclude:
   
 accessible_tabs: true
 accessible_charts: true
+graph_color_set: accessible
+
+header:
+    include: header-menu-left-aligned.html
 
